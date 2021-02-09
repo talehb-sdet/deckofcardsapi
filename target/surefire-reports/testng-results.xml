@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5109" started-at="2020-12-04T13:13:31 EST" finished-at="2020-12-04T13:13:36 EST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5109" started-at="2020-12-04T13:13:31 EST" finished-at="2020-12-04T13:13:36 EST">
+      <class name="deckofcardsapi.DrawCardsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:deckofcardsapi.DrawCardsTest@4f7d0008]" name="setUp" is-config="true" duration-ms="339" started-at="2020-12-04T13:13:34 EST" finished-at="2020-12-04T13:13:35 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="drawFourCards()[pri:0, instance:deckofcardsapi.DrawCardsTest@4f7d0008]" name="drawFourCards" duration-ms="1155" started-at="2020-12-04T13:13:35 EST" finished-at="2020-12-04T13:13:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawFourCards -->
+      </class> <!-- deckofcardsapi.DrawCardsTest -->
+      <class name="deckofcardsapi.NewDeckofCardsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:deckofcardsapi.NewDeckofCardsTest@553f17c]" name="setUp" is-config="true" duration-ms="318" started-at="2020-12-04T13:13:31 EST" finished-at="2020-12-04T13:13:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewDeckJokers()[pri:0, instance:deckofcardsapi.NewDeckofCardsTest@553f17c]" name="addNewDeckJokers" duration-ms="2792" started-at="2020-12-04T13:13:31 EST" finished-at="2020-12-04T13:13:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewDeckJokers -->
+        <test-method status="PASS" signature="createNewDeck()[pri:0, instance:deckofcardsapi.NewDeckofCardsTest@553f17c]" name="createNewDeck" duration-ms="480" started-at="2020-12-04T13:13:34 EST" finished-at="2020-12-04T13:13:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeck -->
+      </class> <!-- deckofcardsapi.NewDeckofCardsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

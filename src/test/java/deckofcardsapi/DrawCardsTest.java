@@ -49,5 +49,4 @@ public class DrawCardsTest {
         Assert.assertEquals(deckId,jsonPathEV.get(DECK_ID));
     }
 
-
 }

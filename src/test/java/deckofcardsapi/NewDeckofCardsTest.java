@@ -45,8 +45,6 @@ public class NewDeckofCardsTest {
     }
 
 
-
-
     private static void checkNewDeck(Response response,int numberOfCards){
         Assert.assertEquals(SUCCESS_STATUS_CODE,response.getStatusCode());
         JsonPath jsonPathEV=response.jsonPath();
